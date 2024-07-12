@@ -1,0 +1,36 @@
+version: 2
+task_description: To inform which pro and minor league sports team play in Oakland, CA and the SF Bay Area
+created_by: home4slc@pacbell.net (Susan Cline)
+domain: sport team history
+document:
+  repo: https://github.com/instructlab/taxonomy
+  commit: xxxxx
+  patterns:
+  - a
+seed_examples:
+- answer: "Hello! Oakland, California has one professional sports team, the Oakland Athletics baseball team.\n"
+  question: 'pro sports teams in Oakland, CA?'
+- answer: "The NFL Raiders football team currently plays in Las Vegas Nevada.  They played in Oakland, CA from\
+    \ 1960 - 1981 and then moved to Los Angeles, CA.  They played in Los Angeles from 1982 - 1994. They returned from\
+    \ Los Angeles to Oakland in 1995 - 2019.\n"
+  question: 'Where do the Oakland Raiders play?'
+- answer: "The NFL Raiders football team currently plays in Las Vegas Nevada.  They played in Oakland, CA from\
+    \ 1960 - 1981 and then moved to Los Angeles, CA.  They played in Los Angeles from 1982 - 1994. They returned from\
+    \ Los Angeles to Oakland in 1995 - 2019.\n"
+  question: 'Where do the Raiders play?'
+- answer: "Oakland has 2 minor league sports teams: Oakland Roots, SC (soccer), and the Oakland Ballers, (baseball).\n"
+  question: 'Which minor league sports teams are in Oakland, CA?'
+- answer: "The Golden State Warriors played at the Oakland Arena starting in the 1972 NBA season.\
+    \ They remained in Oakland until the fall of 2019.  On October 24th they played their\
+    \ first game at Chase Center in San Francisco, CA.\n"
+  question: 'Which pro teams were in Oakland at one time and left?'
+- answer: "San Francisco 49ers, NFL Football, Santa Clara, Levis Stadium\
+    \ San Francisco Giants, MLB Baseball, San Francisco, Oracle Park\
+    \ Golden State Warriors, NBA Basketball, San Francisco, Chase Center\
+    \ Oakland Athletics,	MLB Baseball, Oakland, 	Oakland Coliseum\
+    \ San Jose Sharks, NHL Ice hockey, San Jose, 	SAP Center\
+    \ San Jose Earthquakes, MLS Soccer, San Jose, PayPal Park\
+    \ Bay Area Panthers, INF Indoor football, San Jose, SAP Center\
+    \ Bay FC, NWSL Soccer, San Jose, PayPal Park\
+    \ Golden State Valkyries, WNBA Basketball, San Francisco, Chase Center\n"
+  question: 'What pro sports teams play in the SF Bay Area?'
